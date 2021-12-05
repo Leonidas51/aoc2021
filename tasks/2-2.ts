@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const twoTwo = async () => {
-  const data = fs.readFileSync('./data/2-2.txt', 'utf8').split('\n');
+  const data = fs.readFileSync('./data/2.txt', 'utf8').split('\n');
 
   let aim = 0;
   let distance = 0;

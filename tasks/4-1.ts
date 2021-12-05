@@ -95,7 +95,7 @@ const fourOne = async () => {
     return sum;
   }
 
-  const data = fs.readFileSync('./data/4-1.txt', 'utf8').split('\n');
+  const data = fs.readFileSync('./data/4.txt', 'utf8').split('\n');
   const { draw, cards } = parse(data);
 
   let victory = false;

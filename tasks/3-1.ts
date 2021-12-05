@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const threeOne = async () => {
-  const data = fs.readFileSync('./data/3-1.txt', 'utf8').split('\n');
+  const data = fs.readFileSync('./data/3.txt', 'utf8').split('\n');
 
   const counter = new Array(data[0].length).fill(null).map(el => {
     return {"0": 0, "1": 1} as Record<string, number>;

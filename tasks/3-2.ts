@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const threeTwo = async () => {
-  const data = fs.readFileSync('./data/3-2.txt', 'utf8').split('\n');
+  const data = fs.readFileSync('./data/3.txt', 'utf8').split('\n');
 
   const getMostCommonByIndex = (data: string[], index: number): "0" | "1" => {
     const counter: Record<string, number> = {"0": 0, "1": 0};

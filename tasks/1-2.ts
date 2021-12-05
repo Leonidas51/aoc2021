@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const oneTwo = async () => {
-  const data = fs.readFileSync('./data/1-2.txt', 'utf8').split('\n');
+  const data = fs.readFileSync('./data/1.txt', 'utf8').split('\n');
 
   let count = 0;
   data.forEach((val, i) => {
