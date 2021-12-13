@@ -31,7 +31,7 @@ const visualize = (points: string[]) => {
   const result = [];
 
   for (let i = 0; i < 6; i++) {
-    result[i] = new Array(39).fill('.');
+    result[i] = new Array(39).fill(' ');
   }
 
   for (const point of points) {
@@ -39,7 +39,7 @@ const visualize = (points: string[]) => {
 
     const coord = result?.[y]?.[x];
     if (coord) {
-      result[y][x] = '#';
+      result[y][x] = '█';
     }
   }
 
