@@ -5,8 +5,8 @@
   "main": "1.js",
   "scripts": {
     "start": "npm-run-all build run",
-    "build": "esbuild tasks/16-2.ts --platform=node --bundle --outdir=dist",
-    "run": "node dist/16-2.js"
+    "build": "esbuild tasks/17-2.ts --platform=node --bundle --outdir=dist",
+    "run": "node dist/17-2.js"
   },
   "author": "",
   "license": "ISC",
